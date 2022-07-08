@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2do Examen - Nombre</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/codigo.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="indicaciones" id="inicio" >
+        <p1>SEGUNDO EXAMEN</p1>
+        <p2>PROGRAMACI&Oacute;N WEB</p2>
+    </div>
+    <div class="autorG" id="perfil">
+        <h1>Indicaciones</h1>
+        <p>* Agregue un <code>div</code>, en el cual debe colocar sus datos personales como autor <br>
+            
+            <div class="datosper" >
+                <p>Nombre y Apellidos</p>
+            <h1>
+                Juan Carlos Mamani Pati
+            </h1>
+            
+            <p>descripci&oacute;n personal</p> 
+            <h1>
+                Estudiante de tercer año de la carrerra sistemas informaticos 
+            </h1>
+           </div>
+            <p>
+            *Importe la hoja de estilo <code>ESTILO.CSS</code> <br>
+            * Agregue un fondo de imagen, usando alguna de las imagenes adjuntas <br>
+            <img src="" alt="">
+            * Agregue un bot&oacute;n que env&iacute;e a facebook, usando el icono correspondiente <br>
+            * Agregue un bot&oacute;n que env&iacute;e a instagram, usando el icono * correspondiente  <br>
+            * Agregue un bot&oacute;n que env&iacute;e a youtube,usando el icono correspondiente 
+            </p>
+            <div class="ayudas" id="item">
+            <div class="iconos" id="#item">
+                <div class="#item">
+                  <h2 href="https://www.instagram.com/"> <h1 class="fa fa-instagram"></h1></h2>
+                </div>
+            </div>
+        
+                <div class="iconos" id="#item">
+                <div class="#item">
+                  <h2 href="https://www.facebook.com/"> <h1 class="fa fa-facebook"></h1></h2>
+                </div>
+            </div>
+            <div class="iconos" id="#item">
+                <div class="#item">
+                  <h2 href="https://web.whatsapp.com/"> <h1 class="fa fa-whatsapp"></h1></h2>
+                </div>
+            </div>
+            <div class="iconos" id="#item">
+                <div class="#item">
+                  <h2 href="https://www.youtube.com/"> <h1 class="fa fa-youtube"></h1></h2>
+                </div>
+            </div>
+            </div>
+        </div><br><br><br><br><br>
+            <p>
+            * Utilice las fuentes HELVETICA, TREBUCHET MS, ARIAL <br>
+            * Agregue un MENU que permita navegar por la p&aacute;gina, como se vio en clase, el cual contenga: <br>
+            * Para el menu importe un archivo de FONTAWESOME <br>
+            * Crear un elemento de fondo que use algun tipo de filtro de imagen <br>
+            * Agregar una transición a los elementos de contenido con una duración de 1s <br> 
+            </p>
+            <ol>
+                <div class="menu" >
+                    <a href="#inicio">inicio</a>
+                    <a href="#perfil">perfil</a>
+                    <a href="#ayuda">ayuda</a>
+                    <a href="#contenido">contenido</a>
+                    <a href="#js">js</a>
+                </div>
+            <div>
+                
+                Inicio <br>
+                Perfil <br>
+                Ayuda <br>
+                Contenido  <br>
+                JS
+
+            </div>
+
+            </ol>
+            * Crear 3 cajas para mostrar los siguientes elementos: <br>
+            * Asegurarse que las im&aacute;genes esten alineadas verticalmente <br>
+            <ul>
+
+                    <div class="fotos" id="contenido">
+                        <img src="img/imagen.png" alt="" width="50px">
+                        <h1>Im&aacute;genes</h1>
+                    </div> 
+                    <div class="fotos">
+                        <img src="img/documento.png" alt="" width="50px">
+                        <h1>Documentos</h1> 
+                    </div>
+                    <div class="fotos">
+                        <img src="img/video.png" alt="" width="50px">
+                        <h1>Videos</h1>
+                    </div>
+            </ul>
+            Agregue estilos para estas cajas <br>
+            Utilice los siguientes colores: <br>
+            <div class="c1">#36979E</div>
+            <div class="c2">#EB7FC0</div>
+            <div class="c3">#66E1EA</div>
+            <div class="c4">#EBD650</div>            
+        </p>
+    </div>
+
+    <div class="ejJS" id="js">
+        <ol>
+            Realizar un ejercicio que permita agregar un elemento a un vector <br>
+            Realizar un ejercicio que permita eliminar los elementos del vector <br>
+            Realizar un elemento que permita crear una lista numeros y posteriormente ordenarlos <br>
+            Realizar un elemento que permita crear una lista de nombres posteriormente ordenarlos alfabeticamente <br>
+            Realizar un ejercicio que permita crear una lista de mascotas por pares de datos [nombre, edad] <br>
+            Realizar un ejercicio que permita ordenar el anterior vector por la edad <br>
+            Realizar un ejercicio que permita ordenar el anterior vector por el nombre
+        </ol>
+    </div>
+
+    <div class="ej1">
+        <h1>Ejercicio 1 - Crear lista</h1>
+        <input type="text" id="entrada1"><br>
+        <br>
+        <button onclick="agregar()">AGREGAR</button><br>
+        <p id="resultado1"></p>
+        <br>
+    </div>
+    <div class="ej1">
+        <h1>Ejercicio 2 - Eliminar elementos</h1>
+        <br>
+        <button id="mostrar" onclick="mostrar()">MOSTRAR</button>
+        <button id="ej2" onclick="eliminar()">ELIMINAR</button>
+        <p id="resultado2"></p>
+        <br> 
+    </div>
+    <div class="ej1">
+        <h1>Ejercicio 3 - Ordenar numeros</h1>
+        <input type="text" id="entrada2">
+        <br>
+        <br>
+        <button onclick="agregar2()">AGREGAR</button>
+        <button onclick="ordenar()">Ordenar N&uacute;meros</button>
+        <p id="resultado3"></p>
+        <br>
+    </div>
+    <div class="ej1">
+        <h1>Ejercicio 4 - Ordenar nombres</h1>
+        <input type="text" id="entrada3">
+        <br>
+        <br>
+        <button onclick="agregar3()">AGREGAR</button>
+        <br>
+        <br>
+        <button onclick="ordenar2()">Ordenar Alfabeticamente</button>
+        <p id="resultado4"></p>
+        <br>
+    </div>
+    
+</body>
+</html>
